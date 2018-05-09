@@ -20,7 +20,6 @@ body {
 
 img {
   max-width: 100%;
-  display: block;
 }
 
 .container {
@@ -83,6 +82,71 @@ div, input, a {
 
 .clearfix {
   clear: both;
+}
+
+.hd-bar {
+  padding: 20px;
+  background: #1E5C37;
+  text-align: center;
+}
+
+.hd-bar img {
+  margin: 0 auto;
+}
+
+.img-box img {
+  width: 100%;
+  display: block;
+  margin-bottom: -5px;
+}
+
+.p-top-img {
+  position: absolute;
+  width: 100%;
+}
+
+.p1-title-box {
+  position: relative;
+}
+
+.p1-btn {
+  display: block;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+}
+
+.p5-btn {
+  display: inline-block;
+  height: 90px;
+  padding: 0 10%;
+}
+
+.p5-btn-phone {
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  margin-left: -25%;
+}
+
+.page {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.frame-box iframe {
+  position: absolute;
+  width: 100% !important;
+  height: 100%;
+  left: 0;
+}
+
+#phone {
+  display: none;
 }
 
 @keyframes btn {

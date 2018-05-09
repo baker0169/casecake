@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title></title>
@@ -19,6 +20,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="css/normalize.css" rel='stylesheet' type='text/css' />
     <link href="css/appearance.css" rel='stylesheet' type='text/css' />
+    <link href="css/swiper.css" rel='stylesheet' type='text/css' />
     <link href="css/device.css" rel='stylesheet' type='text/css' />
     <!-- js setup -->
 </head>
@@ -27,29 +29,146 @@
     <!-- Googletag start-->
     <!-- GGoogle tag end -->
     <header class="header" id="header">
-        <!-- 搜尋欄 -->
-        <div class="search-bar">
-            <form method="post" action="./xxxx.php" target="frame_upload" enctype="multipart/form-data">
-                <div>
-                    <input type="text" class="search" id="search" name="search" placeholder="輸入關鍵字" required>
-                </div>
-            </form>
-        </div>
+        <div class="hd-bar"><img src="images/web/logo.png" alt=""></div>
     </header>
-    <div class="header-space"></div>
-    <div id="code-edt" class="page code-edt">
-        <div class="container fxs code-edt-content">
+    <!-- 桌機版 -->
+    <div id="web"">
+        <div id="" class="page p1">
+            <div class="img-box"><img src="images/web/A2.jpg" alt=""></div>
+            <div class="p-top-img p1-title" style="top: 10%">
+                <div class="p1-title-box">
+                    <a href="#p5" class="p1-btn" style="bottom: 22%;"></a>
+                    <img src="images/web/A1.png" alt="" style="padding-top: 8%">
+                </div>
+                <div class="p1-title-box" style="padding: 0 14%;">
+                    <img src="images/web/A3.png" alt="" style="margin: 0 auto;padding-top: 10%">
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- modal-box 浮動盒子區塊 -->
-    <footer>
+        <div class="page p2">
+            <div class="img-box"><img src="images/web/A4.jpg" alt=""></div>
+            <div class="p-top-img p2-title" style="top: 10%">
+                <div class="p2-title-box" style="padding: 0 14%; position: relative;">
+                    <img src="images/web/A5.png" alt="">
+                    <div class="frame-box" style="position: absolute;top:36%;left: 37.5%; width: 33%;overflow: hidden; border-radius: 20px">
+                        <div class="frame-sbox" style="padding-bottom: 56.25%">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZN6DcbD8bC8?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page p3">
+            <div class="img-box" style="position:relative;top:-2px"><img src="images/web/A6.jpg" alt=""></div>
+        </div>
+        <div class="page p4">
+            <div class="img-box" style="position:relative;top:-2px;"><img src="images/web/A7.jpg" alt=""></div>
+        </div>
+        <div class="page p5" id="p5">
+            <div class="img-box" style="position:relative;top:-4px;"><img src="images/web/A8.jpg" alt=""></div>
+            <div class="p-top-img p5-title" style="top: 0%">
+                <div class="p5-title-box" style="padding: 0 17%">
+                    <img src="images/web/A9.png" alt="" style="padding-top: 5%">
+                    <div class="p5-btn-box fxm-around" style="height: 90px;width: 66%;text-align: center; bottom: -1%;position:absolute;">
+                        <a href="" class="p5-btn"></a>
+                        <a href="" class="p5-btn"></a>
+                        <a href="" class="p5-btn"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 桌機版 -->
+        <!-- 手機版 -->
+        <div id="phone" ">
+            <div id=" " class="page p1 ">
+                <div class="img-box "style="position: relative; "><img src="images/phone/B1.jpg " alt=" " ></div>
+                <a href="#b5 " class="p1-btn " style="top:15% "></a>
 
-    </footer>
-    <!-- js setup -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>    <script>
-    window.jQuery || document.wte('<script src="js/jquery.min.js"><\/script>')
-    </script>
-    <script type="text/javascript" src="js/js.js"></script>
-</body>
+            </div>
+            <div class="page p2 ">
+                <div class="img-box "><img src="images/phone/B2.jpg " alt=" "></div>
+                <div class="frame-box " style="position: absolute;top:48%;left: 20.5%; width: 50%;overflow: hidden; border-radius: 20px ">
+                    <div class="frame-sbox " style="padding-bottom: 56.25% ">
+                        <iframe width="560 " height="315 " src="https://www.youtube.com/embed/ZN6DcbD8bC8?rel=0&amp;controls=0 " frameborder="0 " allow="autoplay; encrypted-media " allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="page p3 ">
+                <div class="img-box " style="position:relative;top:-2px "><img src="images/phone/B3.jpg " alt=" " ></div>
+                <div class="swiper-container " style="width: 80%;position: absolute;top: 40.5%; left: 50%;margin-left: -40%">
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide " style="background-image:url(images/phone/_C7W8440.jpg ">
+                        </div>
+                        <div class="swiper-slide " style="background-image:url(images/phone/_C7W8637.jpg ">
+                        </div>
+                        <div class="swiper-slide " style="background-image:url(images/phone/_C7W8775.jpg ">
+                        </div>
+                        <div class="swiper-slide " style="background-image:url(images/phone/_C7W8806.jpg ">
+                        </div>
+                        <div class="swiper-slide " style="background-image:url(images/phone/_C7W8887.jpg ">
+                        </div>
+                        <div class="swiper-slide " style="background-image:url(images/phone/_C7W8904.jpg ">
+                        </div>
+                        <div class="swiper-slide " style="background-image:url(images/phone/_C7W8957.jpg ">
+                        </div>
+                        <div class="swiper-slide " style="background-image:url(images/phone/_C7W8973.jpg ">
+                        </div>
+                        <div class="swiper-slide " style="background-image:url(images/phone/_C7W8996.jpg ">
+                        </div>
+                        <div class="swiper-slide " style="background-image:url(images/phone/_C7W9045.jpg ">
+                        </div>
+                        <div class="swiper-slide " style="background-image:url(images/phone/_C7W9053.jpg ">
+                        </div>
+                        <div class="swiper-slide " style="background-image:url(images/phone/_C7W9075.jpg ">
+                        </div>
+                        <div class="swiper-slide " style="background-image:url(images/phone/_C7W9082.jpg ">
+                        </div>
 
-</html>
+                    </div>
+                    <!-- Add Pagination -->
+                    <!-- <div class="swiper-pagination swiper-pagination-white "></div> -->
+                    <!-- Add Arrows -->
+                    <!-- <div class="swiper-button-next swiper-button-white "></div>
+                    <div class="swiper-button-prev swiper-button-white "></div> -->
+                </div>
+
+            </div>
+            <div class="page p4 ">
+                <div class="img-box " style="position:relative;top:-2px; "><img src="images/phone/B4.jpg " alt=" " ></div>
+            </div>
+            <div class="page p5 " id="b5 " style="margin-bottom: -70px ">
+                <div class="img-box " style="position:relative;top:-4px; "><img src="images/phone/B5.jpg " alt=" " ></div>
+                <div class="p5-btn-box " style="position:absolute;top:0;height: 100%;width: 100%; ">
+                    <a href=" " class="p5-btn p5-btn-phone " style="top: 43% "></a>
+                    <a href=" " class="p5-btn p5-btn-phone " style="top: 66% "></a>
+                    <a href=" " class="p5-btn p5-btn-phone " style="top: 88% "></a></div>
+                </div>
+            </div>
+            <!-- 手機版 -->
+            <footer>
+                <div class="hd-bar "><img src="images/web/logo-2.png " alt=" "></div>
+            </footer>
+            <!-- js setup -->
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js "></script>
+            <script>
+                window.jQuery || document.wte('<script src="js/jquery.min.js "><\/script>')
+            </script>
+            <script type="text/javascript " src="js/swiper.min.js "></script>
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    pagination: '.swiper-pagination',
+                    paginationClickable: true,
+                    slidesPerView: 1,
+                    keyboardControl: true,
+                    nextButton: '.swiper-button-next',
+                    prevButton: '.swiper-button-prev',
+                    effect: 'fade',
+                    loop: true,
+                    autoplay: 4000,
+                });
+
+            </script>
+            <!-- <script type="text/javascript " src="js/js.js "></script> -->
+        </body>
+
+        </html>

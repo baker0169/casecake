@@ -1,0 +1,932 @@
+@media (max-width: 1280px)
+  .ln-focus-content
+    width: 1170px
+
+@media (max-width: 1024px)
+  .container
+    width: 90%
+  /*header*/
+  .header-r-box
+    .mobile-btn
+     	display: block
+  .m-menu-show
+    .header-btn-box
+      right: 0
+  .login-header
+    box-shadow: 0px 4px 0px #178fac
+    position: relative
+    width: 100%
+    z-index: 9
+    .no-login 
+      display: block
+  .header-btn-box
+    position:fixed 
+    width: 300px
+    height: 100vh
+    right: -100%
+    top: 63px
+    background: rgba(0 ,0,0,0.88)
+    padding: 25px 20px
+    z-index: 8
+  .header-btn-list
+    flex-direction: column-reverse
+    -webkit-flex-direction: column-reverse
+    -moz-flex-direction: column-reverse
+    justify-content: flex-end
+    -webkit-justify-content: flex-end
+    -moz-justify-content: flex-end
+    align-items: flex-start 
+    -webkit-box-align: flex-start 
+    -webkit-align-items: flex-start 
+    -ms-flex-align: flex-start
+    width: 100%
+    .drop-btn
+      justify-content: space-between 
+      -webkit-justify-content: space-between
+      -moz-justify-content: space-between
+      margin-bottom: 5px
+    .header-btn 
+      width: 100%
+      a
+        display: -webkit-flex
+        display: -moz-flex
+        display: -webkit-box
+        display: -ms-flex
+        display: -moz-box
+        display: -ms-flexbox
+        display: -webkit-flex
+        display: flex
+        color: #fff
+      i
+        color: #fff
+      .fa-bell
+        display: none
+    .drop-down
+      position: relative
+      box-shadow: none
+      background: transparent
+      margin: 15px 0 10px 0
+      &:before
+        display: none
+    .drop-down-list
+      padding: 0 0 0 8px
+      width: 100%
+      font-size: 0.9rem
+      li
+        border-bottom :1px solid #848484
+    .showdrop>a
+      background: transparent
+    .notify-btn 
+      .drop-down-list
+        height: 240px
+        border: 1px solid #fff
+        border-radius: 0
+        padding-left:0
+    .user-btn 
+      li:nth-child(3), li:nth-child(4)
+        display: none
+
+  /*首頁*/
+  .index-content
+    display: block
+    width: 100%
+    .index-box
+      display: block
+      padding: 50px 10%  
+    .focus-icon-box
+      position: static
+      width: 100%
+      padding: 10% 25%
+      margin: 0
+    .index-line:before,.c-t:before
+      height: 300px
+      transform: rotate(0deg)
+      -ms-transform:rotate(0deg)
+      -webkit-transform:rotate(0deg)
+  .c-t:before
+    left: 8px
+  .t-circle
+    z-index: 0
+  .index-blank-box,.focus-blank-box
+    display: none
+  .index-ctn-5 
+    .focus-red-bar
+      height: 0
+    .focus-icon-box
+      background:#faf7f7
+      padding: 0% 30%
+    .index-icon 
+      position:static
+      margin:0
+      top:0
+      width: auto
+      height: auto
+    .index-box
+      text-align: left
+      padding: 50px 10%
+  .index-ctn-1
+    .index-box
+      padding: 0
+  .index-ctn-6 
+    .course-box,.index-box-title
+      display: none
+  .index-title 
+    h2,p
+      text-align: center
+  .focus-content
+    text-align: center
+  .p-num
+    font-size: 1.5rem
+  /*learn*/
+  .ln-header
+    display: block
+  .ln-setting,.ln-tchr
+    justify-content: flex-start
+    -webkit-justify-content: flex-start
+    -moz-justify-content: flex-start
+  .ln-tchr-box
+    width:100%
+  .ln-setting
+    padding-top: 10px
+    width: 100%
+  .ln-tchr
+    width: 200px
+    overflow: hidden
+  .ln-focus
+    overflow: visible
+  .ln-focus-content
+    width: 100%
+  .ln-note
+    right: 0
+    width: 35%
+    padding: 3% 2%
+  .opennote
+    right: 1%
+    font-size: 0.9rem
+  .ln-finish
+    font-size: 1.2rem
+  /*討論區*/
+  .ln-ctn-box-r
+    position: relative
+    width: 100%
+  .ln-progress-box
+    padding: 0
+    height:150px
+  .ln-ctn-box-r 
+    display: none
+    .tip-show
+      display:none 
+  .ln-ctn-box
+    width: 100%
+    padding: 0 3%
+  /*作品*/
+  .ln-gal-block
+    display: block
+    &:after
+      content:""
+      display: block
+      clear: both
+  .ln-gal-box
+    width: 50%
+    margin-bottom: 30px
+    float: left
+    .ln-gal-ctn
+      width: 250px
+      margin: 0 auto
+  /*推薦*/
+  #ln,.ci-info-box
+    .home-box
+      display: block
+      &:after
+        content: ""
+        display: block
+        clear: both
+  .rcmd-info-box 
+    .course-title
+      h2
+        text-align: center
+        margin: 50px 0
+    .course-box
+      float: left
+      width: 50%
+    .course-content
+      width: 250px
+      margin: 0 auto
+  .pay-feed
+    display: none
+  /*login-index*/
+  .resume-box,.course-box
+    width: 33.333%
+  .resume-content,.course-content 
+    max-width: 250px
+    margin: 0 auto
+  .home-title
+    padding: 0 2.5%
+  /*me*/
+  .me-t-left
+    padding-right: 0
+  .me-about
+    font-size: 0.9rem
+    a
+      font-size: 0.8rem
+  /*course-info*/
+  .ci-video,.ci-body 
+    flex-direction: column
+    -webkit-flex-direction: column
+    -moz-flex-direction: column
+  .ci-left-box, .ci-frame-box
+    width: 100%
+  .ci-start-box
+    width: 100%
+    padding: 30px 0 0
+  .detail-item span
+    width: 50%
+  .ci-share-box
+    right: 0
+    width: 50%
+  .ci-right-box
+    width: 100%
+
+@media (max-width: 768px)
+  /*首頁*/
+
+  .index-title
+    h2
+      font-size: 1.8rem
+    p 
+      font-size: 1.2rem
+    p.fxmc
+      display: block
+  .focus-content
+    font-size: 1rem
+  .f-1 
+    p
+      font-size: 1.5rem
+  .p-num
+    font-size: 1.2rem
+
+  /*learn*/
+  .ln-header
+    padding: 15px 3%
+  .ln-setting
+    font-size: 0.85rem
+  .ln-focus-content
+    width: 95% 
+    display: block
+  .ln-focus
+    z-index: 9
+  .ln-note
+    position:fixed
+    height: 100vh
+    width: 100%
+    top: 0px
+    right :-100%
+    z-index: 9
+    padding: 60px 4% 20px
+    border-radius: 0
+    .tab 
+      padding: 1.5%
+    .m-note-btn
+      font-size: 2rem
+      top: 10px
+      right: 18px
+  .ln-video
+    width: 100%
+  .offnote
+    display: none
+  .m-offnote,.m-note
+    display: block
+  .m-noteopen
+    .header
+      z-index: 5
+    .ln-note
+      right: 0
+  .ln-wte-ctn
+    position: relative
+  .wte-search
+    bottom: 3%
+    width: 100%
+  .wtehere
+    width: 50%
+  .q-box-left .user-img
+    width: 35px
+    height: 35px
+  /*專案上傳*/
+  .work-img 
+    width: 300px
+  .ln-work-upload
+    width: 100px
+  .work-input-box
+    display: block
+    .public-ta ~.public-ta-text
+      display: block 
+      width: 100%
+      padding: 10px 0 0 0
+  .public-ta
+    width: 70%
+  .work-btn-box 
+    text-align: center
+    width: 100%
+    font-size: 0.85rem
+  /*專案列表頁面*/
+  .ln-task-ctn-box
+    .ln-ctn-box-r
+      display: block
+    .ln-pro-box
+      padding: 0 5%
+    .faq-ctn
+      margin-bottom: 2%
+  .ln-task-item
+    >.fxm,.task-btn-box
+      display:block
+      text-align: center
+    .task-img,.task-text-box,.task-btn-box,.task-status-box 
+      display: inline-block
+      width: 100%
+    .task-img
+      width: 100px
+      height: 100px
+    .task-text
+      margin: 10px 0
+      width: 100%
+    .task-status-box div
+      margin: 10px 0
+    .separator-v
+      display: none
+    .rating-box
+      display: inline-block
+      .rating
+        margin: 0
+  /*專案實作內容頁面*/
+  /*推薦*/
+  .rcmd-info-box
+    .course-box
+      width: 100%
+  /*作品*/
+  .ln-gal-box
+    width: 100%
+  /*結帳區塊*/
+  .ckout-box
+    width: 100%
+    left: 0
+    top: 0
+    border-radius: 0
+    margin: 0
+    height: 100%
+  .ckout-wrapper
+    overflow: auto
+  /*login-index*/
+  .resume-box,.course-box
+    width: 50%
+  .home-title
+    padding: 0 6%
+  /*me*/
+  .me-head,.me-t-left,.me-job
+    display: block
+  .me-name
+    margin: 0 0 30px
+  .me-t-left
+    width: 100%
+    padding-right: 0
+    margin: 0 auto
+    text-align: center
+  .me-t-right
+    width: 100%
+    margin: 0 auto 
+    padding: 25px 0
+  .me-img
+    margin: 0 auto
+  .me-link
+    width: 200px
+    margin: 10px auto 0 
+    justify-content: center
+    -webkit-justify-content: center
+    -moz-justify-content: center
+  .me-about
+    margin: 10px 0
+  .me-job
+    padding: 15px 0
+  .me-tab-box a
+    padding: 12px 5px 8px
+  .interact-block 
+    display: block
+  .me-select-box 
+    padding: 0 20px 
+    .sort-select
+      width: 100%
+  .interact-block-left, .interact-block-right
+    width: 90%
+    margin: 0 auto
+  /*技能樹*/
+  .perk-item-box 
+    text-align: center
+  /*course-index*/
+  .chome-head-box
+    padding: 10px 0 0 0
+  .chome-title-box
+    flex-direction: column
+    -webkit-flex-direction: column
+    -moz-flex-direction: column
+  .chome-title
+    text-align: center
+  .chome-array-btn 
+    width: 90%
+    padding: 50px 0 0 0 
+    justify-content: center
+    -webkit-justify-content: center
+    -moz-justify-content: center
+    h4 
+      padding: 0
+    /*course-info*/
+  .tag-box 
+    display: block
+    a
+      float: left
+      margin: 5px
+      font-size: 0.6rem
+    &:after
+      content: ""
+      display: block
+      clear: both
+  .ci-header-box
+    .separator-v
+      margin: 0 5px
+    .icon-box
+      font-size: 0.8rem 
+      &:nth-child(1)
+        width: 20%
+      &:nth-child(3)
+        width: 50%
+        span
+          font-size: 0.8rem
+    .user-img
+      display: none
+    .ci-tchr-box
+      font-size: 0.8rem
+  .start-btn-box, .ci-add-box
+    margin: 0
+    padding: 0 3px
+  .ci-body-box 
+    padding-right: 0
+  .ci-header-box .ci-tchr-box .text-box
+    padding: 0
+  .chp-item
+    font-size: 0.9rem
+  .chp-title
+    overflow: hidden
+    height: 20px
+    padding-right: 10px
+  .review-title
+    display: block
+  .review-num,.ci-btn
+    justify-content: center
+    -webkit-justify-content: center
+    -moz-justify-content: center
+  .review-total,.review-num
+    text-align: center
+  .review-num
+    padding-bottom: 20px
+  .review-btn
+    margin: 15px 0
+  .review-box
+    font-size: 0.9rem
+    flex-direction: column
+    -webkit-flex-direction: column
+    -moz-flex-direction: column
+    .user-name
+      font-size: 0.8rem
+  .review-text-box,.review-user-box,.review-time
+    width: 100%
+  .review-box 
+    position: relative
+  .review-time 
+    position: absolute
+    right: 0
+    top: 24px
+    padding: 0
+    span
+      padding:0 
+  /*faq*/
+  .faq-ans-block
+    flex-direction: column
+    -webkit-flex-direction: column
+    -moz-flex-direction: column
+  .faq-ans-ctn,.faq-rel-ctn
+    width: 100%
+    padding: 0
+  .faq-main-title
+    display: block
+    .separator-v
+      display: none
+    h2
+      font-size: 1.8rem
+  .faq-box
+    display: block
+    width: 100%
+    margin: 0 0 20px 0
+  /*setting*/
+  .setting-content
+    flex-direction: column
+    -webkit-flex-direction: column
+    -moz-flex-direction: column
+  .setting-nav-box 
+    padding: 15px 0
+    .setting-item
+      float : left
+      width: 20%
+      padding: 0
+      text-align: center
+      font-size: 0.9rem
+  .setting-list
+    &:after
+      content:""
+      display: block 
+      clear: both
+  .setting-box,.account-name
+    width: 100%
+    input
+      width: 100%
+  .setting-sec-box
+    margin: 20px 0
+  .profile-img-box
+    flex-direction: column
+    -webkit-flex-direction: column
+    -moz-flex-direction: column
+  .img-upload 
+    justify-content: center
+    -webkit-justify-content: center
+    -moz-justify-content: cente
+  .upload-text,.profile-basic
+    text-align: center
+  .probase-form
+    textarea,.gender-select,input.save
+      width: 100%
+  .probase-form.fxm
+    margin: 5% 0 
+  .account-box
+    text-align: center
+  .account-body 
+    .reset-box
+      text-align: center
+      input,input.submit
+        width: 100%
+  .priv-box
+    justify-content: space-between 
+    -webkit-justify-content: space-between
+    -moz-justify-content: space-between
+  .priv-item
+    width: 50%
+  .setting-box input.private-submit
+      width: 100%
+  .tsetting-input-box
+    text-align: center
+  .bank-select
+    width: 100%
+    margin: 10px 0 20px
+  .social-link-text
+    font-size: 0.8rem
+    width: 100%
+    border-radius: 0
+  .profile-basic
+    .probase-form
+      display: block
+  .social-link 
+    border-radius: 0
+  /*history*/
+  .sheet-item
+    font-size: 0.9rem
+  .his-body 
+    .sheet-item:nth-child(1)
+      width: 25%
+    .sheet-item:nth-child(2)
+      width: 30%
+    .sheet-item
+      height: 30px
+@media (max-width: 640px)
+  /*course-index*/
+  .chome-head-box
+    padding: 20px 0 50px
+  .title-intro
+    flex-direction: column
+    -webkit-flex-direction: column
+    -moz-flex-direction: column
+    h1
+      text-align: center
+    .title-img
+      width: 200px
+      height: 200px
+    .title-text
+      margin: 0
+      width: 100%
+    .title-get-box
+      justify-content: center
+      -webkit-justify-content: center
+      -moz-justify-content: center
+@media (max-width: 480px)
+  .logo
+    img
+      width: 150px
+  .header-l-box
+    .header-btn
+      .fa-search
+        font-size:1.2rem
+      >a
+        padding: 10px 5px
+    .browse-drop-down
+      font-size: 1.2rem
+      span 
+        display:none;
+  header .header-l-box .browse-btn .browse-category div.browse-type::after
+    display: none
+  header .header-l-box .browse-btn .browse-category
+    width: 100vw
+  header .header-l-box .browse-btn .browse-category div.browse-career
+    position: relative
+    left: 0
+    top: 0
+    box-shadow: none
+  header .header-l-box .browse-btn .browse-category div.career-item
+    font-size: 0.95rem
+    a 
+      color:#505050
+  header .header-l-box .browse-btn .browse-category div.browse-type
+    display: block
+  header .header-l-box .browse-btn .browse-category .career-item a
+    padding-left: 30px
+  .browse-career .browse-title
+    display: none
+  .header-btn-box
+    width: 100%
+    overflow: auto
+  .search-bar input
+    height: 60px
+  .container
+    width: 100%
+  /*登入註冊*/
+  .modalDialog 
+    .modalbox
+      width: 100%
+      padding: 50px 6% 27px 
+      height: 100vh
+      margin: 0
+      border-radius: 0
+  .log-social a
+    width: 100%
+  .log-mail 
+    form input,.log-submit
+      width: 100%
+    h3
+      margin: 0 
+      padding: 5px 0
+  .log-title
+    line-height: 2rem
+    padding: 0 0 20px 0
+    font-size: 1.3rem
+  /*footer*/
+  .footer-top-box,.footer-second-box
+    display: block
+  .footer-item
+    text-align: center
+    border-bottom: 1px solid #545454
+    a
+      font-size: 0.8rem
+  .footer-like
+    margin: 10px 0
+  .ln-tab-box li
+    padding: 5px 2%
+    font-size: 0.9rem
+
+  /*首頁*/
+  .index
+    .header-btn
+      font-size: 0.9rem
+      a
+        padding: 10px 5px
+  #top-content
+    min-height: 600px
+    padding-bottom: 0px
+  .top-text
+    h1
+      font-size: 2rem
+    h2
+      font-size: 1.2rem
+  .search .search-box
+    width: 75%
+  .index-list 
+    display: block
+    .list-item 
+      width: 50%
+      margin: 0
+      float: left
+      padding: 5px
+      height: auto
+      a
+        padding: 0 0 100% 0
+        height: 0
+    .item-icon
+      padding-top: 25%
+    &:after
+      content: ""
+      display: block
+      clear: both
+  .index-ctn-1
+    min-height: 1350px
+    .index-title
+      padding: 0 5%
+  .index-ctn-6 
+    .index-box
+      padding: 0 5%
+    .focus-box 
+      padding: 50px 2%
+  .index-title
+    h2
+      font-size: 1.3rem
+      line-height: 2rem
+    p 
+      font-size: 0.9rem
+  .focus-content
+    font-size: 0.9rem
+  .f-1
+    padding: 10px 5%  30px 
+    p
+      font-size: 1.3rem
+  .f-1 span
+    font-size: 0.9rem
+
+  /*learn*/
+  .ln-content-box
+    font-size: 0.85rem
+  .ln-tchr 
+    width: 100%
+    margin: 0 0 10px 0
+    .user-img
+      margin: 0 2%
+    .text-box
+      margin: 0 2px
+  .ln-setting
+    flex-flow: row wrap
+    .separator-v
+      margin: 0 5px 0 10px
+      &:nth-child(4)
+        display: block
+      display: none
+    .ln-setting-btn
+      margin-right: 0
+      .drop-down
+        right: -50px
+        &:before
+          right: 35%
+    .icon-box
+      padding-right: 10px
+    .ln-share
+      margin: 0 5px
+  .q-box-left .user-img
+    margin: 0 10px
+  /*專案上傳*/
+  .ln-work-bottom a
+    width: 60%
+    margin-bottom: 10px
+  /*專案成果內容*/
+  .ln-info-title
+    display: block
+    h3
+      width: 100% 
+  .ln-info-date
+    width: 100%
+  /*評價*/
+  .rev-box-left .rev-good, .rev-box-left .rev-bad
+    margin: 0 10px 0 5px
+    font-size: 1.2rem
+  /*付款提示*/
+  .ln-pay-box
+    padding: 30px 0
+  .pay-title
+    font-size: 0.8rem
+    .pay-notice
+      font-size: 0.9rem
+  .ln-pay-box .pay-detail-btn
+    width: 150px
+    font-size: 0.9rem
+    padding: 6px 0
+  .pay-code 
+    width: 85%
+    margin: 5% auto 0 
+  .pay-atm-des
+    margin: 5px 0
+  .pay-ft-box .pay-ft
+    padding: 0
+      
+  /*結帳*/
+  .ckout-box
+    height: auto
+    padding: 15px
+  .ckout-course span, .ckout-title h3
+    line-height: 1.5rem
+  .ckout-btn
+    width: 100%
+  .wrong-coupon
+    text-align: center
+  .ckout-m-box label
+    border-radius: 2px
+  .ckout-item
+    padding: 0 0.5%
+  .invo-info
+    width: 100%
+  .ckout-invo
+    height: 260px
+  /*login-index*/
+  .resume-box,.course-box
+    width: 100%
+  .resume-content,.course-content 
+    max-width: 250px
+    margin: 0 auto
+  .home-title
+    padding: 0 6%
+    display: block
+    text-align: center
+    margin-bottom: 20px
+  /*me*/
+  .me-t-right
+    width: 90%
+  .me-tab-box a
+    font-size: 0.85rem
+  /*技能樹*/
+  .perk-item
+    display: block
+    margin: 0 auto
+  .perk-dash
+    display: none
+
+  /*course-index*/
+  .title-intro .title-text
+    padding: 0 20px 
+  .chome-filter-open
+    .filter-tgl-box
+      left: 0
+      top: 50px
+      width: 100%
+      height: 100%
+    .chome-nav,.chome-filter
+      width: 100%
+    .chome-nav-box
+      height: 80% 
+  .chome-array-btn 
+    .array-btn
+      padding: 5px 15px
+    h4
+      display: none
+  /*course-info*/
+  .ci-content
+    width: 90%
+  .tag-box a
+    padding: 0 8px
+  .ci-title
+    font-size: 1.8rem 
+  .ci-title2
+    font-size: 1rem 
+  .chp-time
+    display:  none
+  .ci-header-box:nth-child(3)
+    display: block
+    .separator-v
+      display: none
+    div.icon-box
+      display: inline
+      &:nth-child(3)
+        width: 80%
+    .ci-tchr-box
+      margin: 10px 0 
+  .ci-share-box 
+    a
+      padding: 0 1px
+  /*faq*/
+  .faq-content
+    width: 90%
+  .faq-main-title
+    display: block
+    .separator-v
+      display: none
+    h2
+      font-size: 1.8rem
+  /*setting*/
+  .setting-nav-box 
+    .setting-item
+      width: 30%
+      padding: 8px 0
+      a 
+        color: #fff
+        &:hover
+          color: #fff
+  .setting-box
+    border-radius: 0
+    &:nth-child(1)
+      background: #4C92B7
+  .setting-sec-box
+    margin: 0 
+  /*history*/
+  .sheet-body-box
+    border: 0px
+  .dash-title
+    text-align: center
+  .sheet-item
+    font-size: 0.6rem
